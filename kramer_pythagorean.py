@@ -1,0 +1,5 @@
+name=str(input("Hi, what's your name?: "))
+a=int(input("Cool, " + name + ", Let's make a right triangle, what do you want the length of a to be?: "))
+b=int(input("Now, what should b be?: "))
+c=float(((a**2)+(b**2))**.5)
+print("Well, if a is " + str(a) + ", and b is " + str(b) + ", then c must be " + str(c))
